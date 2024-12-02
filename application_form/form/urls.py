@@ -3,5 +3,6 @@ from . import views
 
 urlpatterns = [
     path('', views.employee_application_form, name='employee_application_form'),  # Employee application form page
-    path('success/', views.application_success, name='application_success'),  # Success page after submission
+    path('success/', views.application_success, name='application_success'),
+    path('download/<id>/',views.download_pdf,name='download_pdf')  
 ]

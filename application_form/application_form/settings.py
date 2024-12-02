@@ -128,3 +128,9 @@ import os
 
 MEDIA_URL = '/documents/'  # URL to access media files
 MEDIA_ROOT = os.path.join(BASE_DIR, 'documents')  # Directory to store uploaded files
+
+
+# Add it on your settings.py file
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"), # your static/ files folder
+]
