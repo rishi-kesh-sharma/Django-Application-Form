@@ -67,3 +67,7 @@ python manage.py createsuperuser
 ```bash
 python manage.py runserver
 ```
+
+## Visit
+
+[Application Form](http://127.0.0.1:8000/form/)
