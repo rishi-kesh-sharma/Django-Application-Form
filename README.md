@@ -1,55 +1,68 @@
 ## Backend Setup (Django)
 
-# Clone the repository
+## Clone the repository
 
 ```bash
 git clone <repo-url>
+```
+
+## Go to Repo Folder
+
+```bash
 cd <repo-folder>
 ```
 
-# Create and activate a virtual environment
+## Create virtual environment
 
 ```bash
 python -m venv .venv
+```
 
-# On Windows
-source .venv\Scripts\activate
+## Activate virtual environment
 
-# On Linux/macOS
+### On Windows
+
+```bash
+source .venv/Scripts/activate
+```
+
+### On Linux/macOS
+
+```bash
 source .venv/bin/activate
 ```
 
-# Install dependencies
+## Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-# Go to Project folder
+## Go to Project folder
 
 ```bash
 cd application_form
 ```
 
-# Make database migrations
+## Make database migrations
 
 ```bash
 python manage.py makemigrations
 ```
 
-# Apply database migrations
+## Apply database migrations
 
 ```bash
 python manage.py migrate
 ```
 
-# Create superuser
+## Create superuser
 
 ```bash
 python manage.py createsuperuser
 ```
 
-# Start the development server
+## Start the development server
 
 ```bash
 python manage.py runserver
