@@ -3,10 +3,8 @@ from .forms import EmployeeApplicationForm
 from django.template.loader import render_to_string
 from form.models import Form
 from django.template.loader import get_template
-from django.http import HttpResponse
 from xhtml2pdf import pisa
 
-import pdfkit
 
 
 def employee_application_form(request):
